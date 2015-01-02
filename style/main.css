@@ -2,10 +2,17 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #a08080;
+  color: #E0E0E0;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+
+  background: -webkit-linear-gradient(#404040, #c0c0c0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#404040, #c0c0c0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#404040, #c0c0c0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#404040, #c0c0c0); /* Standard syntax */
+
+   }
 
 body {
   margin: 80px 0; }
@@ -53,7 +60,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #a0a0a0;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -149,7 +156,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #bbbbbb;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -183,7 +190,7 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #806060;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -194,7 +201,7 @@ hr {
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
+      background: rgba(255, 255, 255, 0.5);
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
@@ -551,7 +558,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #a08080
     border-radius: 6px;
     width: 280px;
     height: 280px;
